@@ -1,0 +1,47 @@
+.sobre-section {
+  background-color: #fff6f9;
+  font-family: 'Playfair Display', serif;
+}
+
+.section-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #b55b85;
+}
+
+.autor-img {
+  max-width: 300px;
+  border: 6px solid #b55b85;
+}
+
+.biografia {
+  font-size: 1.1rem;
+  color: #5a2e3c;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.citacao {
+  font-style: italic;
+  color: #b55b85;
+  font-size: 1.2rem;
+  border-left: 4px solid #b55b85;
+  padding-left: 15px;
+  margin-top: 1rem;
+}
+
+.btn-romance {
+  background-color: transparent;
+  color: #b55b85;
+  border: 2px solid #b55b85;
+  border-radius: 30px;
+  padding: 8px 24px;
+  transition: all 0.3s ease;
+  font-family: 'Quicksand', cursive;
+  font-size: 1.1rem;
+}
+
+.btn-romance:hover {
+  background-color: #b55b85;
+  color: white;
+}

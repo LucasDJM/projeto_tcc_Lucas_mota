@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+font-family: 'Quicksand', sans-serif;
+ padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bg-color: #F1FDFD;
+    --text-color: #1C1C1C;
+    --main-color: #FC7F9F;
+    --second-color: #BA5BBA;
+    --big-font: 4.5rem;
+    --h2-font: 3.2rem;
+    --p-font: 1.2rem;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+     padding-top: 60px;
+}
+
+

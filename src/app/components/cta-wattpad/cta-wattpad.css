@@ -1,0 +1,7 @@
+.cta-wattpad {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('/img/fundo-romance.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}

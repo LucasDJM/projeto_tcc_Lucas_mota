@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Dancing+Script&display=swap');
+
+.ebooks-section {
+  background-color: #fff6f9;
+  font-family: 'Playfair Display', serif;
+}
+
+.section-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.7rem;
+  color: #b55b85;
+}
+
+.frase-inicial {
+  font-size: 1.2rem;
+  color: #914e6d;
+  font-style: italic;
+}
+
+.livro-titulo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3f0d1f;
+  margin-bottom: 0.5rem;
+}
+
+.livro-sinopse {
+  font-size: 1.1rem;
+  color: #5a2e3c;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.personagens h5 {
+  color: #b55b85;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.personagens ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.personagens li {
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.btn-romance {
+  background-color: transparent;
+  color: #b55b85;
+  border: 2px solid #b55b85;
+  border-radius: 30px;
+  padding: 8px 24px;
+  transition: all 0.3s ease;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-romance:hover {
+  background-color: #b55b85;
+  color: white;
+  box-shadow: 0 4px 14px rgba(181, 91, 133, 0.4);
+}
+
+.livro-img {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.livro-img:hover {
+  transform: scale(1.02);
+}
+
+.divider {
+  border: none;
+  border-top: 2px dashed #f3dce5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

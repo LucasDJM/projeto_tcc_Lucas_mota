@@ -1,0 +1,64 @@
+.contato-romantico {
+  background: linear-gradient(to bottom right, #fff0f5, #fffafc);
+  border-radius: 1rem;
+  font-family: 'Georgia', serif;
+  color: #6b1f3a;
+}
+
+.titulo-romantico {
+  font-size: 2.2rem;
+  color: #c2185b;
+  font-weight: bold;
+}
+
+.subtitulo-romantico {
+  font-size: 1.1rem;
+  color: #8e3e63;
+}
+
+.form-romantico {
+  background-color: #ffffffcc;
+  border-left: 6px solid #f8bbd0;
+  backdrop-filter: blur(5px);
+}
+
+.input-romance {
+  border-radius: 0.5rem;
+  border: 1px solid #f8bbd0;
+}
+
+.input-romance:focus {
+  box-shadow: 0 0 5px #f06292;
+  border-color: #f06292;
+}
+
+.botao-romance {
+  background-color: #f06292;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.botao-romance:hover {
+  background-color: #ec407a;
+  transform: scale(1.03);
+}
+
+a {
+  color: #6b1f3a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-romance {
+  color: #c2185b;
+}
+

@@ -1,0 +1,23 @@
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.btn-outline-primary {
+  border-color: #e83e8c; /* cor rosa */
+  color: #e83e8c;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e83e8c;
+  color: white;
+  border-color: #e83e8c;
+}

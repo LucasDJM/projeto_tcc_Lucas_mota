@@ -1,0 +1,75 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background-color: var(--main-color);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+header.sticky {
+   background-color: rgba(219, 151, 195, 0.748); /* exemplo de rosa claro translúcido */
+    padding: 5px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px); /* Deixa um efeito levemente embaçado atrás */
+}
+
+
+/* ids e class*/
+#header{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-header{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-header li{
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-header a{
+    color: var(--bg-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.navbar-header a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--bg-color);
+    bottom: -5px;
+    left: 0;
+    transition: ease .50s;
+}
+
+.navbar-header a:hover::after{
+    width: 100%;
+}
+
+.header-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--bg-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  color: var(--second-color) !important; /* Rosa elegante */
+  font-weight: bold;
+  
+}
+
+
