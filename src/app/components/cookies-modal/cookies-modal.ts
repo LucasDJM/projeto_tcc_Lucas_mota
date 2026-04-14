@@ -11,10 +11,17 @@ declare var bootstrap: any;
 })
 export class CookiesModal implements OnInit{
   ngOnInit(): void {
-    const aceitou = localStorage.getItem('cookieConsent');
+   /* const aceitou = localStorage.getItem('cookieConsent');
     if (!aceitou) {
       const modal = new bootstrap.Modal(document.getElementById('cookieModal')!);
-      modal.show();
+      modal.show();*/
+     const forcarExibicao = true; // <- coloque como true só durante a apresentação
+  const aceitou = localStorage.getItem('cookieConsent');
+
+  if (forcarExibicao || !aceitou) {
+    const modal = new bootstrap.Modal(document.getElementById('cookieModal')!);
+    modal.show();
+
     }
   }
 
